@@ -1,0 +1,5 @@
+Esta carpeta contiene lo trabajado en la seccion 4.
+
+- Creacion de 3 instancias para apache tomcat, cada una en su respectivo puerto
+- En la carpeta /scripts estan los archivos BATH (por lotes) cuya funcionalidad 
+es la de levantar/dar de baja una instancia correspondiente
