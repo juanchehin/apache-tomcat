@@ -1,0 +1,17 @@
+* Cluster vertical *
+-----------------
+
+- Esta carpeta contiene los archivos configurados para implementar el "load balanced" con 3 instancias. 
+
+	- Se encuentra el sever Nginx con su configuracion
+	- tomcat10: el server que se uso para montar las apps
+	- scripts: para levantar cada una de las 3 instancias
+	- instance1,instance2 y instance3: cada una de las instancias de las apps de prueba
+
+* Cluster horizontal *
+----------------------
+
+- Para el cluster horizontal se debe levantar 2 PC (virtuales o fisicas) o 2 IP
+diferentes
+- En la carpeta "Horizontal Cluster Nginx" se encuentra el archivo conf que
+se debe configurar en NgInx

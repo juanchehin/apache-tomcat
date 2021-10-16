@@ -1,0 +1,44 @@
+2021/10/16 09:16:20 [error] 8024#3020: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/16 09:17:18 [error] 8024#3020: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/16 09:17:27 [error] 8024#3020: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/16 09:17:28 [error] 8024#3020: *1 CreateFile() "C:\nginx-1.18.0/html/favicon.ico" failed (2: The system cannot find the file specified), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2021/10/16 09:19:13 [emerg] 9592#8872: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 09:19:30 [emerg] 10212#7220: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 09:20:04 [emerg] 8468#7228: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 09:20:53 [emerg] 7372#4200: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 09:21:29 [emerg] 9316#6800: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 09:22:15 [emerg] 9852#1972: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 09:23:25 [error] 10076#912: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "localhost"
+2021/10/16 09:23:28 [error] 10076#912: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "localhost"
+2021/10/16 09:25:16 [error] 10076#912: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
+2021/10/16 09:25:18 [error] 10076#912: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "localhost"
+2021/10/16 09:25:20 [error] 10076#912: *5 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "localhost"
+2021/10/16 09:31:05 [error] 10076#912: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
+2021/10/16 09:31:07 [error] 10076#912: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "localhost"
+2021/10/16 09:31:09 [error] 10076#912: *9 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "localhost"
+2021/10/16 09:56:44 [error] 4188#4288: *3 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "localhost"
+2021/10/16 09:56:55 [error] 4188#4288: *6 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
+2021/10/16 10:09:28 [error] 4188#4288: *14 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
+2021/10/16 10:13:50 [emerg] 8752#8484: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 10:22:20 [emerg] 1560#9560: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 10:22:20 [alert] 1348#6440: worker process 1560 exited with code 1
+2021/10/16 10:22:20 [alert] 1348#6440: could not respawn worker
+2021/10/16 10:25:01 [emerg] 8756#7136: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 10:25:33 [emerg] 4480#3400: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 10:26:37 [emerg] 5740#3920: unexpected "}" in C:\nginx-1.18.0/conf/nginx.conf:54
+2021/10/16 10:26:54 [notice] 4124#9436: signal process started
+2021/10/16 10:26:54 [error] 4124#9436: OpenEvent("Global\ngx_quit_1348") failed (2: The system cannot find the file specified)
+2021/10/16 10:27:52 [notice] 2704#7320: signal process started
+2021/10/16 10:27:52 [error] 2704#7320: OpenEvent("Global\ngx_quit_1348") failed (2: The system cannot find the file specified)
+2021/10/16 10:28:26 [notice] 3588#5836: signal process started
+2021/10/16 10:28:26 [error] 3588#5836: OpenEvent("Global\ngx_reload_1348") failed (2: The system cannot find the file specified)
+2021/10/16 10:29:18 [notice] 4596#6596: signal process started
+2021/10/16 10:29:18 [error] 4596#6596: OpenEvent("Global\ngx_quit_1348") failed (2: The system cannot find the file specified)
+2021/10/16 10:29:22 [notice] 3992#5896: signal process started
+2021/10/16 10:29:22 [error] 3992#5896: OpenEvent("Global\ngx_reload_1348") failed (2: The system cannot find the file specified)
+2021/10/16 10:30:01 [error] 8472#4268: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8180/", host: "localhost"
+2021/10/16 10:30:03 [error] 8472#4268: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8280/", host: "localhost"
+2021/10/16 10:30:05 [error] 8472#4268: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
+2021/10/16 10:30:05 [error] 8472#4268: *1 no live upstreams while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "http://tomcatservers/favicon.ico", host: "localhost", referrer: "http://localhost/"
+2021/10/16 10:30:59 [error] 8472#4268: *1 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
+2021/10/16 10:31:17 [error] 8472#4268: *8 connect() failed (10061: No connection could be made because the target machine actively refused it) while connecting to upstream, client: 127.0.0.1, server: localhost, request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:8380/", host: "localhost"
