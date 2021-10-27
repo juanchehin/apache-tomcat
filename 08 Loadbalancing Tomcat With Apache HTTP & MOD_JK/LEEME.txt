@@ -1,0 +1,11 @@
+Esta carpeta contiene lo que describe a continuacion, su utilidad es para configurar un balanceador de carga con Tomcat,Apache HTTP y MOD_JK , el Sistema operativo usado es windows:
+
+- El zip con el mod_jk, para la version 2.4 de apache (descargado desde http://archive.apache.org/dist/tomcat/tomcat-connectors/jk/binaries/windows/)
+
+- El archivo httpd.conf de apache (En windows C:\xampp\apache\conf\httpd.conf) con la configuracion correspondiente al mod_jk
+
+- El archivo workers.properties (conf/workers.properties)
+
+- El server.xml con la configuracion correspondiente (C:\tomcat10\conf\server.xml) ; ver linea 100 y 116
+	Esta configuracion debe ser seteada en cada una de las maquinas en las cuales se esta ejecutando el server tomcat, que son las que conforman el cluster detras
+	del loadBalancer
